@@ -7,9 +7,9 @@ To fetch the directory in the first place, run:
 ```
 apt-get update
 apt-get upgrade -y
-apt-get install git
-git clone https://github.com/ebuchman/new-server /new-server
-cd /new-server
+apt-get install -y git
+git clone https://github.com/ebuchman/new-server
+cd new-server
 ```
 
 Add your info to `info.sh` and ensure you are logged in as root.
